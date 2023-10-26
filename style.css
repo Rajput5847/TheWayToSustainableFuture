@@ -1,0 +1,302 @@
+@font-face {
+  font-family: Nimbus Sans L;
+  src: url(./nimbus-sans-l.regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nimbus Sans L';
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  width: 100%;
+}
+
+#nav {
+  font-size: 12px;
+  padding: 2vw 7vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#nav a {
+  font-weight: 800;
+  color: black;
+  text-decoration: none;
+}
+
+#nav a:hover {
+  text-decoration: underline;
+}
+
+#nav #nleft {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+#nav #centerkrbsdk {
+  font-size: 14px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 14vw;
+  padding: 0vw 7vw;
+}
+
+#sustain {
+  width: 12.5vw;
+}
+
+#sustain p {
+  text-transform: capitalize;
+  font-size: 14px;
+  margin: 7px 0;
+  line-height: 1;
+}
+
+#sustain #susimgwrap {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 18vw;
+}
+
+#sustain #susimgwrap img {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 120%;
+  height: 120%;
+  object-fit: cover;
+}
+
+#ephemeral {
+  position: relative;
+  width: 30vw;
+  min-height: 42vw;
+}
+
+#ephemeral #headings {
+  position: absolute;
+  top: -23%;
+  left: -12%;
+}
+
+#ephemeral img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#ephemeral h1 {
+  letter-spacing: -0.4vw;
+  font-size: 6vw;
+  font-weight: 100;
+  line-height: 1;
+}
+
+#ephemeral p {
+  margin-top: 17px;
+  font-size: 1vw;
+  line-height: 1;
+  font-weight: 100;
+}
+
+#visit {
+  margin-top: 8vw;
+  cursor: default;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#visit #circlev {
+  height: 3vw;
+  width: 3vw;
+  border: 2px solid #a3a3a3;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all ease 0.3s;
+}
+
+#visit h3 {
+  font-weight: 400;
+  color: #5e5e5e;
+}
+
+#circlev i {
+  color: #a3a3a3;
+}
+
+#visit:hover #circlev i {
+  color: #000;
+}
+
+#visit:hover #circlev {
+  border: 2px solid #000;
+}
+
+#visit:hover h3 {
+  color: #000;
+}
+
+#motive {
+  margin-top: 6.5vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 3vw 7vw;
+}
+
+#motive h3 {
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+#motive #bhashan {
+  width: 85%;
+  font-size: 2vw;
+  text-align: right;
+
+}
+
+#motive p span {
+  font-size: 2vw;
+  display: inline-block;
+  height: 40px;
+  margin: 0 10px;
+  border-radius: 100px;
+  margin-bottom: -12px;
+}
+
+#one {
+  width: 70px;
+  background-image: url(./images/bluegirl.jpg);
+  background-size: cover;
+  background-position: 0% 60%;
+}
+
+#two {
+  width: 90px;
+  background-image: url(./images/shaljam.jpg);
+  background-size: cover;
+  background-position: 0% 50%;
+}
+
+#three {
+  width: 70px;
+  background-image: url(./images/grass.jpg);
+  background-size: cover;
+  background-position: 0% 50%;
+}
+
+#pictures {
+  display: flex;
+  justify-content: space-between;
+  padding: 3vw 12vw 3vw 14vw;
+  margin-top: 8vw;
+}
+
+#firstpic {
+
+  width: 17vw;
+}
+
+#secpic {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 25vw;
+}
+
+#firstpic #picimg {
+  width: 100%;
+  height: 24vw;
+  margin-bottom: 1vw;
+}
+
+#secpic #picimgtwo {
+  width: 100%;
+  height: 37vw;
+  margin-bottom: 1vw;
+}
+
+#firstpic #picimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#secpic #picimgtwo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+#firstpic h1 {
+  letter-spacing: -0.1vw;
+  font-weight: 100;
+  font-size: 2vw;
+}
+
+#firstpic p {
+  width: 50%;
+  line-height: 1.1;
+  opacity: .8;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+#secpic h1 {
+  letter-spacing: -0.1vw;
+  font-weight: 100;
+  font-size: 2vw;
+}
+
+#secpic p {
+  text-align: right;
+  opacity: .8;
+  font-size: 1vw;
+  letter-spacing: -0.07vw;
+  line-height: 1.1;
+  margin-top: 10px;
+  width: 80%;
+}
+
+#banner {
+  width: 100%;
+  margin-top: 8vw;
+}
+
+#bimg {
+  width: 68%;
+  height: 60vh;
+  background-color: burlywood;
+}
+
+#bimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0% 50%;
+}
